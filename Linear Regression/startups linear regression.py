@@ -6,7 +6,7 @@ import seaborn as sns
 
 sns.set()
 
-data= pd.read_csv("Startups.csv")
+data= pd.read_csv("../Data/Startups.csv")
 
 
 y=data['Profit']

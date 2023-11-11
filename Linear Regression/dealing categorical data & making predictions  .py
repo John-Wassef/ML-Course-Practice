@@ -6,7 +6,7 @@ import seaborn as sns
 
 sns.set()
 
-raw_data=pd.read_csv("1.03. Dummies.csv")
+raw_data=pd.read_csv("../Data/1.03. Dummies.csv")
 
 data=raw_data.copy()
 data['Attendance']=data['Attendance'].map({'Yes':1,'No':0})

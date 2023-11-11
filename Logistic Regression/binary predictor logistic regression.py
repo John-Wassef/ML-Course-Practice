@@ -6,8 +6,8 @@ import seaborn as sns
 
 sns.set()
 
-raw_train=pd.read_csv('2.02. Binary predictors.csv')
-raw_test=pd.read_csv('2.03. Test dataset.csv')
+raw_train=pd.read_csv('../Data/2.02. Binary predictors.csv')
+raw_test=pd.read_csv('../Data/2.03. Test dataset.csv')
 
 train=raw_train.copy()
 train['Admitted']=train['Admitted'].map({'Yes':1, 'No':0})

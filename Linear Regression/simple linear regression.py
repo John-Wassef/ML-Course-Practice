@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 
 sns.set()
 
-data=pd.read_csv("1.01. Simple linear regression.csv")
+data=pd.read_csv("../Data/1.01. Simple linear regression.csv")
 
 y=data['GPA']
 x=data['SAT']

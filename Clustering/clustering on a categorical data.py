@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 
 sns.set()
 
-data=pd.read_csv('3.01. Country clusters.csv')
+data=pd.read_csv('../Data/3.01. Country clusters.csv')
 
 data_mapped=data.copy()
 data_mapped['Language']=data_mapped['Language'].map({'English':0,'French':1,'German':2})

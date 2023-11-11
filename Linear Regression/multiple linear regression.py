@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 
 sns.set()
 
-data= pd.read_csv("1.02. Multiple linear regression.csv")
+data= pd.read_csv("../Data/1.02. Multiple linear regression.csv")
 
 y=data['GPA']
 x=data[['SAT','Rand 1,2,3']]

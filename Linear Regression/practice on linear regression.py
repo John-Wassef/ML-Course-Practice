@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 
 sns.set()
 
-raw_data=pd.read_csv("1.04. Real-life example.csv")
+raw_data=pd.read_csv("../Data/1.04. Real-life example.csv")
 data=raw_data.drop(['Model'],axis=1)
 # print(data.describe(include="all"))
 # print(data.isnull().sum())

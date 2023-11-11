@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 
 sns.set()
 
-data=pd.read_csv('3.01. Country clusters.csv')
+data=pd.read_csv('../Data/3.01. Country clusters.csv')
 
 x=data.iloc[:,1:3]
 
