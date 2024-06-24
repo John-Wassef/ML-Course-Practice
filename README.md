@@ -1,5 +1,5 @@
 
-ML-Course-Practice
+# ML-Course-Practice
 
 This repository contains practice materials for the Machine Learning course on 365 Data Science. It includes various exercises and projects to help understand and implement different machine learning algorithms and concepts.
 
