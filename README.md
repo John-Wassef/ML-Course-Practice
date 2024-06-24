@@ -25,10 +25,6 @@ Installation
     ```bash
     cd ML-Course-Practice
     ```
-3. Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 Usage
 
